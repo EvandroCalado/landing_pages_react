@@ -1,14 +1,32 @@
-import Heading from  "."
+import Heading from '.';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  title: "Heading",
+  title: 'Heading',
   component: Heading,
   args: {
-    children: "Não sei"
+    children: 'O texto está escuro',
   },
   argTypes: {
-    children: {type: "string"},
+    children: { type: 'string' },
+  },
+  parameters: {
+    backgrounds: {
+      default: 'dark',
+    },
   },
 };
 
-export const Template = (args) => <Heading {...args} />
+export const light = (args) => <Heading {...args} />;
+export const dark = (args) => <Heading {...args} />;
+
+light.parameters = {
+  backgrounds: {
+    default: 'light',
+  },
+};
+
+dark.args = {
+  children: 'O texto está claro',
+  colorDark: false,
+};
