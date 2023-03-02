@@ -3,12 +3,15 @@ import styled, { css } from 'styled-components';
 const titleSize = {
   small: (theme) => css`
     font-size: ${theme.font.sizes.medium};
+    font-weight: 900;
   `,
   medium: (theme) => css`
     font-size: ${theme.font.sizes.large};
+    font-weight: 900;
   `,
   big: (theme) => css`
     font-size: ${theme.font.sizes.xlarge};
+    font-weight: 900;
   `,
   huge: (theme) => css`
     font-size: ${theme.font.sizes.xhuge};
