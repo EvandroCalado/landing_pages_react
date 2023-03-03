@@ -1,7 +1,5 @@
 import Heading from '.';
-
-// eslint-disable-next-line import/no-anonymous-default-export
-export default {
+const HeadingStories = {
   title: 'Heading',
   component: Heading,
   args: {
@@ -16,6 +14,8 @@ export default {
     },
   },
 };
+
+export default HeadingStories;
 
 export const light = (args) => <Heading {...args} />;
 export const dark = (args) => <Heading {...args} />;

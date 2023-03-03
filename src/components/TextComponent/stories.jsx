@@ -1,7 +1,6 @@
-/* eslint-disable import/no-anonymous-default-export */
 import TextComponent from '.';
 
-export default {
+const TextComponentStories = {
   title: 'TextComponent',
   component: TextComponent,
   args: {
@@ -11,6 +10,8 @@ export default {
     children: { type: 'string' },
   },
 };
+
+export default TextComponentStories;
 
 export const Template = (args) => {
   return (
