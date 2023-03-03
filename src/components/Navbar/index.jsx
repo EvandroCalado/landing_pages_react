@@ -19,7 +19,7 @@ Navbar.propTypes = {
       link: P.string.isRequired,
       newTab: P.bool,
     })
-  ).isRequired,
+  ),
 };
 
 export default Navbar;
