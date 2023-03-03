@@ -1,5 +1,5 @@
 import Navbar from '.';
-import {mock} from "./mock"
+import { mock } from './mock';
 
 const NavbarStories = {
   title: 'Navbar',
