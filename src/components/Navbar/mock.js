@@ -44,9 +44,4 @@ export const mock = [
   link: "#target 9",
   newTab: false,
   },
-  {
-  children: "link 10",
-  link: "#target 10",
-  newTab: false,
-  },
 ]
