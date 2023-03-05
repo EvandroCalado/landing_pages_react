@@ -18,7 +18,7 @@ describe('<Navbar />', () => {
 
   it('should render styles', () => {
     renderTheme(<Navbar links={mock} />);
-    expect(screen.getByText(/link 10/i).parentElement).toHaveStyleRule(
+    expect(screen.getByText(/link 9/i).parentElement).toHaveStyleRule(
       'flex-flow',
       'column wrap',
       {

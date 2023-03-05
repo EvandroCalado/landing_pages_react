@@ -69,7 +69,9 @@ export const MenuContainer = styled.div`
 
 export const Button = styled.button`
   ${({ theme, visible }) => css`
+    display: none;
     @media ${theme.media.medium} {
+      display: block;
       width: 4rem;
       height: 4rem;
       position: fixed;
