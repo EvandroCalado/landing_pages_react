@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<GridTwoColumn /> should render two column grid 1`] = `
-.c4 {
+.c5 {
   color: #0a1128;
   font-size: 6.4rem;
   font-weight: 900;
@@ -18,7 +18,7 @@ exports[`<GridTwoColumn /> should render two column grid 1`] = `
   gap: 3.2rem;
 }
 
-.c2 .c3 {
+.c2 .c4 {
   margin-bottom: 4rem;
 }
 
@@ -42,12 +42,12 @@ exports[`<GridTwoColumn /> should render two column grid 1`] = `
   align-items: center;
 }
 
-.c5 {
+.c6 {
   font-size: 2.4rem;
 }
 
 @media (max-width:768px) {
-  .c4 {
+  .c5 {
     font-size: 4rem;
   }
 }
@@ -56,6 +56,12 @@ exports[`<GridTwoColumn /> should render two column grid 1`] = `
   .c2 {
     grid-template-columns: 1fr;
     text-align: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c3 {
+    margin-bottom: 3.2rem;
   }
 }
 
@@ -70,24 +76,28 @@ exports[`<GridTwoColumn /> should render two column grid 1`] = `
         class="c2"
       >
         <div
-          class=""
+          class="c3"
         >
-          <h1
-            class="c3 c4"
+          <h2
+            class="c4 c5"
           >
             Grid Two Column
-          </h1>
-          <p
-            class="c5"
+          </h2>
+          <div
+            class="c6"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, omnis qui cumque reiciendis accusantium reprehenderit optio voluptates incidunt. Fugit facilis debitis officia repellat ab laudantium voluptatibus incidunt expedita a nihil!
-          </p>
+          </div>
         </div>
-        <img
-          alt="Grid Two Column"
+        <div
           class=""
-          src="assets/images/javascript.svg"
-        />
+        >
+          <img
+            alt="Grid Two Column"
+            class=""
+            src="assets/images/javascript.svg"
+          />
+        </div>
       </div>
     </div>
   </div>

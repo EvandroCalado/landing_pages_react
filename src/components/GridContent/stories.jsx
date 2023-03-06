@@ -1,5 +1,5 @@
 import GridContent from '.';
-import {args} from "./args"
+import { args } from './args';
 
 const GridContentStories = {
   title: 'GridContent',
@@ -15,4 +15,4 @@ export const Template = (args) => {
   );
 };
 
-export default GridContentStories
+export default GridContentStories;

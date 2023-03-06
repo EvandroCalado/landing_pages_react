@@ -8,13 +8,15 @@ const GridTwoColumn = ({ title, text, background = false, image }) => {
   return (
     <SectionBackground background={background}>
       <Styled.Container>
-        <Styled.ImageContainer>
-          <Heading uppercase colorDark={!background}>
+        <Styled.TextContainer>
+          <Heading uppercase colorDark={!background} as="h2">
             {title}
           </Heading>
           <TextComponent>{text}</TextComponent>
+        </Styled.TextContainer>
+        <Styled.ImageContainer>
+          <Styled.Image src={image} alt={title} />
         </Styled.ImageContainer>
-        <Styled.Image src={image} alt={title} />
       </Styled.Container>
     </SectionBackground>
   );
