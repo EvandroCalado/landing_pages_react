@@ -1,14 +1,8 @@
-import Heading from '../../components/Heading';
-import * as Styled from './styles';
+import Base from '../Base';
+import args from '../Base/mock';
 
 const Home = () => {
-  return (
-    <Styled.Wrapper>
-      <Heading>
-        Olá
-      </Heading>
-    </Styled.Wrapper>
-  );
+  return <Base {...args} />;
 };
 
 export default Home;

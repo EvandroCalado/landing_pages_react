@@ -2,8 +2,9 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.a`
   ${({ theme }) => css`
-    background-color: ${theme.colors.primaryColor};
-    color: ${theme.colors.white};
+    background-color: ${theme.colors.white};
+    color: ${theme.colors.primaryColor};
+    border: 1px solid ${theme.colors.primaryColor};
     border-radius: 50%;
     position: fixed;
     bottom: 2rem;

@@ -30,7 +30,7 @@ describe('<Menu />', () => {
     const menuContainer = button.nextSibling;
 
     expect(button).toHaveStyleRule('display', 'none');
-    expect(button).toHaveStyleRule('display', 'block', {
+    expect(button).toHaveStyleRule('display', 'flex', {
       media: theme.media.medium,
     });
     expect(menuContainer).toHaveStyleRule('opacity', '0', {

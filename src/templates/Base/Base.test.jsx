@@ -1,9 +1,10 @@
-import Footer from '.';
+import Base from '.';
 import { renderTheme } from '../../styles/render.theme';
+import args from './mock';
 
-describe('<Footer />', () => {
+describe('<Base />', () => {
   it('should render', () => {
-    const { container } = renderTheme(<Footer footerHtml={'<h1>Olá</h1>'} />);
+    const { container } = renderTheme(<Base {...args} />);
     expect(container).toMatchSnapshot();
   });
 });

@@ -14,7 +14,6 @@ export const Container = styled.div`
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
     transition: all 300ms ease-in-out;
     border-bottom: ${theme.colors.mediumGray};
     background-color: ${theme.colors.white};
@@ -62,7 +61,7 @@ export const MenuContainer = styled.div`
     @media ${theme.media.medium} {
       display: block;
       text-align: center;
-      padding: ${theme.spacings.xxlarge};
+      padding: ${theme.spacings.xxlarge} 0;
     }
   `}
 `;
@@ -70,23 +69,26 @@ export const MenuContainer = styled.div`
 export const Button = styled.button`
   ${({ theme, visible }) => css`
     display: none;
-    @media ${theme.media.medium} {
-      display: block;
-      width: 4rem;
-      height: 4rem;
-      position: fixed;
-      z-index: 6;
-      top: 2rem;
-      right: 2rem;
-      border: none;
-      background-color: ${theme.colors.primaryColor};
-      color: ${theme.colors.white};
-      pointer-events: ${visible ? 'none' : 'all'};
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    z-index: 6;
+    top: 2rem;
+    right: 2rem;
+    border: none;
+    background-color: ${theme.colors.primaryColor};
+    color: ${theme.colors.white};
+    pointer-events: ${visible ? 'none' : 'all'};
 
-      > svg {
-        width: 2.5rem;
-        height: 2.5rem;
-      }
+    @media ${theme.media.medium} {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    > svg {
+      width: 2.5rem;
+      height: 2.5rem;
     }
   `}
 `;
