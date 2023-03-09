@@ -18,10 +18,10 @@ describe('map-sections', () => {
     const withNoImageGrid = mapSections(
       dataSections.data[0].attributes.sections
     );
-    expect(withNoImageGrid[2].component).toBe('section.section-grid-text');
-    // expect((withNoImageGrid[2].component = [])).toEqual([]);
+    const withNoComponent = mapSections([]);
 
-    // const withNoComponent = mapSections([{}]);
+    expect(withNoImageGrid[2].component).toBe('section.section-grid-text');
+    expect(withNoComponent).toEqual([]);
   });
 
   it('should render with data sections', () => {
