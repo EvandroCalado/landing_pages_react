@@ -3,10 +3,13 @@ import Base from '../Base';
 import { mapData } from '../../api/map-data';
 import PageNotFound from '../PageNotFound';
 import Loading from '../Loading';
+import GridTwoColumn from '../../components/GridTwoColumn';
+import GridContent from '../../components/GridContent';
+import GridSection from '../../components/GridSection';
+import GridImage from '../../components/GridImage';
 
 const Home = () => {
   const [data, setData] = useState([]);
-  // const isMounted = useRef(true);
 
   useEffect(() => {
     const load = async () => {
@@ -27,11 +30,7 @@ const Home = () => {
     load();
   }, []);
 
-
-  const { menu, sections, footerHtml } = data;
-
-  console.log(menu?.link);
-
+  const { menu, sections, footerHtml, slug } = data;
 
   if (data === undefined) {
     return <PageNotFound />;
@@ -42,10 +41,33 @@ const Home = () => {
   }
 
   return (
-    <Base links={menu?.links} html={footerHtml} >
-      <h1>Olá mundo</h1>
-      <h1>Olá mundo</h1>
-      <h1>Olá mundo</h1>
+    <Base
+      links={menu?.links}
+      html={footerHtml}
+      logoData={{ link: menu?.link, text: menu?.text, image: menu?.image }}
+    >
+      {sections.map((section, index) => {
+        const { component } = section;
+        const key = `${slug}-${index}`;
+
+        console.log(component);
+
+        if (component === 'section.section-two-columns') {
+          return <GridTwoColumn key={key} {...section} />;
+        }
+
+        if (component === 'section.section-content') {
+          return <GridContent key={key} {...section} />;
+        }
+
+        if (component === 'section.section-grid-text') {
+          return <GridSection key={key} {...section} />;
+        }
+
+        if (component === 'section.section-grid-image') {
+          return <GridImage key={key} {...section} />;
+        }
+      })}
     </Base>
   );
 };

@@ -11,6 +11,7 @@ export const Container = styled.div`
 
 export const Grid = styled.div`
   ${({ theme }) => css`
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: ${theme.spacings.large};

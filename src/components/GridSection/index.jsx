@@ -4,9 +4,15 @@ import SectionBackgound from '../SectionBackground';
 import Heading from '../Heading';
 import TextComponent from '../TextComponent';
 
-const GridSection = ({ title, description, grid, background = false }) => {
+const GridSection = ({
+  title,
+  description,
+  grid,
+  sectionId,
+  background = false,
+}) => {
   return (
-    <SectionBackgound background={background}>
+    <SectionBackgound background={background} sectionId={sectionId}>
       <Styled.Container>
         <Heading size="huge" uppercase colorDark={!background} as="h2">
           {title}
@@ -15,7 +21,9 @@ const GridSection = ({ title, description, grid, background = false }) => {
         <Styled.Grid>
           {grid.map((item) => (
             <Styled.GridElement key={item.title}>
-              <Heading size="medium" colorDark={!background} as="h3">{item.title}</Heading>
+              <Heading size="medium" colorDark={!background} as="h3">
+                {item.title}
+              </Heading>
               <TextComponent>{item.description}</TextComponent>
             </Styled.GridElement>
           ))}
@@ -31,10 +39,11 @@ GridSection.propTypes = {
   background: P.bool,
   grid: P.arrayOf(
     P.shape({
-      title: P.string.isRequired,
-      description: P.string.isRequired,
+      title: P.string,
+      description: P.string,
     })
   ).isRequired,
+  sectionId: P.string,
 };
 
 export default GridSection;
