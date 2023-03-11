@@ -50,8 +50,6 @@ const Home = () => {
         const { component } = section;
         const key = `${slug}-${index}`;
 
-        console.log(component);
-
         if (component === 'section.section-two-columns') {
           return <GridTwoColumn key={key} {...section} />;
         }
@@ -67,6 +65,8 @@ const Home = () => {
         if (component === 'section.section-grid-image') {
           return <GridImage key={key} {...section} />;
         }
+
+        return null;
       })}
     </Base>
   );

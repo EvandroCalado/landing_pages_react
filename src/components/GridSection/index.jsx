@@ -17,7 +17,7 @@ const GridSection = ({
         <Heading size="huge" uppercase colorDark={!background} as="h2">
           {title}
         </Heading>
-        <TextComponent>{description}</TextComponent>
+        <Styled.Text>{description}</Styled.Text>
         <Styled.Grid>
           {grid.map((item) => (
             <Styled.GridElement key={item.title}>

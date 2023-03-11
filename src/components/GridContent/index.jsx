@@ -4,9 +4,9 @@ import SectionBackground from '../SectionBackground';
 import TextComponent from '../TextComponent';
 import * as Styled from './styles';
 
-const GridContent = ({ title, html, background = false }) => {
+const GridContent = ({ title, html, sectionId, background = false }) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground background={background} sectionId={sectionId}>
       <Styled.Container>
         <Heading uppercase colorDark={!background} as="h2">
           {title}

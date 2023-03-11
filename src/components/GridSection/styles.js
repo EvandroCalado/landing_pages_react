@@ -10,6 +10,13 @@ export const Container = styled.div`
   `}
 `;
 
+export const Text = styled.h2`
+  ${({ theme }) => css`
+    margin-bottom: ${theme.spacings.xhuge};
+    text-align: center;
+  `}
+`;
+
 export const Grid = styled.div`
   ${({ theme }) => css`
     counter-reset: grid-counter;
@@ -30,6 +37,7 @@ export const GridElement = styled.div`
     ${HeadingContainer} {
       position: relative;
       left: 5rem;
+      text-align: left;
     }
 
     ${HeadingContainer}::before {
