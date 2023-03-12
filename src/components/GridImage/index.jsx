@@ -34,6 +34,7 @@ GridImage.propTypes = {
   title: P.string.isRequired,
   description: P.string.isRequired,
   background: P.bool,
+  sectionId: P.string,
   grid: P.arrayOf(
     P.shape({
       image: P.string.isRequired,

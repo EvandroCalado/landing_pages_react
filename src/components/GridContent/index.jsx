@@ -23,6 +23,7 @@ GridContent.propTypes = {
   title: P.string.isRequired,
   html: P.string.isRequired,
   background: P.bool,
+  sectionId: P.string
 };
 
 export default GridContent;

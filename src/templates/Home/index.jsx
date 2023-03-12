@@ -7,6 +7,7 @@ import GridTwoColumn from '../../components/GridTwoColumn';
 import GridContent from '../../components/GridContent';
 import GridSection from '../../components/GridSection';
 import GridImage from '../../components/GridImage';
+import Pricing from '../../components/Pricing';
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -64,6 +65,10 @@ const Home = () => {
 
         if (component === 'section.section-grid-image') {
           return <GridImage key={key} {...section} />;
+        }
+
+        if (component === 'section.pricing') {
+          return <Pricing key={key} {...section} />;
         }
 
         return null;

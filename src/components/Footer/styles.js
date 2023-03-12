@@ -1,6 +1,5 @@
 import styled, { css } from 'styled-components';
 import { Container as TextComponent } from '../TextComponent/styles';
-import { Container as SectionContainer } from '../SectionContainer/styles';
 
 export const Container = styled.footer`
   ${({ theme }) => css`
@@ -13,10 +12,6 @@ export const Container = styled.footer`
 
     & ${TextComponent} {
       font-size: ${theme.font.sizes.small};
-    }
-
-    & ${SectionContainer} {
-      padding: 0;
     }
   `}
 `;

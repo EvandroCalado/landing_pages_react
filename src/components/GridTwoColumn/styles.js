@@ -4,7 +4,7 @@ import { Title } from '../Heading/styles';
 export const Container = styled.div`
   ${({ theme }) => css`
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr;
     align-items: center;
     gap: ${theme.spacings.large};
 

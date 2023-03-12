@@ -16,6 +16,10 @@ export const mapSections = (sections = []) => {
       return mapImageGrid(section);
     }
 
+    if (section.__component === 'section.pricing') {
+      return mapPricing(section);
+    }
+
     return section;
   });
 };
@@ -107,5 +111,26 @@ export const mapImageGrid = (section = {}) => {
         altText,
       };
     }),
+  };
+};
+
+export const mapPricing = (section = {}) => {
+  const {
+    __component: component = '',
+    title,
+    description_one,
+    description_two,
+    table,
+    metadata: { background = false, section_id: sectionId = '' } = false,
+  } = section;
+
+  return {
+    component,
+    title,
+    description_one,
+    description_two,
+    table,
+    background,
+    sectionId,
   };
 };

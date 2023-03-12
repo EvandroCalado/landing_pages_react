@@ -1,11 +1,11 @@
 import Table from '.';
 
-import { args } from './args';
+import { args } from "../Pricing/args"
 
 const TableStories = {
   title: 'Table',
   component: Table,
-  args: [args]
+  args: args
 };
 
 export const Template = (args) => {

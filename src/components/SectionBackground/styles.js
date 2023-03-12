@@ -10,7 +10,8 @@ export const Container = styled.div`
     background-color: ${theme.colors.white};
     color: ${theme.colors.primaryColor};
     min-height: 100vh;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     ${background && containerBackgroundActivate(theme)};
   `}
 `;
