@@ -8,15 +8,21 @@ import GridContent from '../../components/GridContent';
 import GridSection from '../../components/GridSection';
 import GridImage from '../../components/GridImage';
 import Pricing from '../../components/Pricing';
+import SectionContact from '../../components/SectionContact';
+import { useLocation } from 'react-router-dom';
 
 const Home = () => {
   const [data, setData] = useState([]);
+  const location = useLocation();
 
   useEffect(() => {
+    const pathName = location.pathname.replace(/[^a-z0-9-_]/gi, '');
+    const slug = pathName ? pathName : 'landing-page';
+
     const load = async () => {
       try {
         const data = await fetch(
-          'http://localhost:1337/api/pages/?populate=deep'
+          `http://localhost:1337/api/pages/?filters[slug]=${slug}&populate=deep`
         );
         const json = await data.json();
         const { attributes } = await json.data[0];
@@ -29,7 +35,7 @@ const Home = () => {
     };
 
     load();
-  }, []);
+  }, [location]);
 
   const { menu, sections, footerHtml, slug } = data;
 
@@ -69,6 +75,10 @@ const Home = () => {
 
         if (component === 'section.pricing') {
           return <Pricing key={key} {...section} />;
+        }
+
+        if (component === 'section.section-contact') {
+          return <SectionContact key={key} {...section} />;
         }
 
         return null;

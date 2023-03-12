@@ -1,11 +1,9 @@
 import Pricing from '.';
 
-import { args } from './args';
-
 const PricingStories = {
   title: 'Pricing',
   component: Pricing,
-  args: args
+  args: {...Pricing},
 };
 
 export const Template = (args) => {
@@ -16,4 +14,4 @@ export const Template = (args) => {
   );
 };
 
-export default PricingStories
+export default PricingStories;

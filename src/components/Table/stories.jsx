@@ -1,11 +1,11 @@
 import Table from '.';
 
-import { args } from "../Pricing/args"
+import { args } from '../Pricing/args';
 
 const TableStories = {
   title: 'Table',
   component: Table,
-  args: args
+  args: { args },
 };
 
 export const Template = (args) => {
@@ -16,4 +16,4 @@ export const Template = (args) => {
   );
 };
 
-export default TableStories
+export default TableStories;

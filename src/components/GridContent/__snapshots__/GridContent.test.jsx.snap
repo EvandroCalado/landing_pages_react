@@ -6,9 +6,11 @@ exports[`<GridContent /> should render background 1`] = `
   font-size: 6.4rem;
   font-weight: 900;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .c1 {
+  width: 100%;
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
@@ -51,6 +53,7 @@ exports[`<GridContent /> should render background 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
@@ -173,9 +176,11 @@ exports[`<GridContent /> should render grid content 1`] = `
   font-size: 6.4rem;
   font-weight: 900;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .c1 {
+  width: 100%;
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
@@ -218,6 +223,7 @@ exports[`<GridContent /> should render grid content 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"

@@ -20,6 +20,10 @@ export const mapSections = (sections = []) => {
       return mapPricing(section);
     }
 
+    if (section.__component === 'section.section-contact') {
+      return mapSectionContact(section);
+    }
+
     return section;
   });
 };
@@ -130,6 +134,33 @@ export const mapPricing = (section = {}) => {
     description_one,
     description_two,
     table,
+    background,
+    sectionId,
+  };
+};
+
+export const mapSectionContact = (section = {}) => {
+  const {
+    first_name = '',
+    last_name = '',
+    email = '',
+    message = '',
+    button = '',
+  } = section.contact;
+
+  const {
+    __component: component = '',
+    metadata: { background = true, section_id: sectionId = '', name = '' } = false,
+  } = section;
+
+  return {
+    component,
+    name,
+    first_name,
+    last_name,
+    email,
+    message,
+    button,
     background,
     sectionId,
   };

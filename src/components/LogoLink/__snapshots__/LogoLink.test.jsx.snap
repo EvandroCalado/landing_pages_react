@@ -13,10 +13,11 @@ exports[`<LogoLink /> should render match snapshot 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
+  padding: 2rem;
 }
 
 .c0 > img {
-  max-height: 2rem;
+  height: 3rem;
 }
 
 <a

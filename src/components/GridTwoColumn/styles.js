@@ -15,6 +15,7 @@ export const Container = styled.div`
 
     ${Title} {
       margin-bottom: ${theme.spacings.xlarge};
+      text-align: left;
     }
   `}
 `;

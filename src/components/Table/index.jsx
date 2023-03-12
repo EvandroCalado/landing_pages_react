@@ -2,6 +2,7 @@ import P from 'prop-types';
 import * as Styled from './styles';
 
 const Table = ({ table = {} }) => {
+  console.log(table);
   return (
     <Styled.Container>
       <Styled.Table>

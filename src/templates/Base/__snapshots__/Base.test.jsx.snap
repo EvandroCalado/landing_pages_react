@@ -6,6 +6,7 @@ exports[`<Base /> should render 1`] = `
 }
 
 .c4 {
+  width: 100%;
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
@@ -16,6 +17,7 @@ exports[`<Base /> should render 1`] = `
   font-size: 2.4rem;
   font-weight: 900;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .c14 {
@@ -23,27 +25,31 @@ exports[`<Base /> should render 1`] = `
   font-size: 6.4rem;
   font-weight: 900;
   text-transform: uppercase;
+  text-align: center;
 }
 
-.c19 {
+.c18 {
   color: #fff;
   font-size: 3.2rem;
   font-weight: 900;
   text-transform: none;
-}
-
-.c21 {
-  color: #0a1128;
-  font-size: 6.4rem;
-  font-weight: 900;
-  text-transform: uppercase;
+  text-align: center;
 }
 
 .c22 {
   color: #0a1128;
+  font-size: 6.4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.c23 {
+  color: #0a1128;
   font-size: 3.2rem;
   font-weight: 900;
   text-transform: none;
+  text-align: center;
 }
 
 .c2 {
@@ -114,10 +120,11 @@ exports[`<Base /> should render 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
+  padding: 2rem;
 }
 
 .c8 > img {
-  max-height: 2rem;
+  height: 3rem;
 }
 
 .c9 {
@@ -163,30 +170,26 @@ exports[`<Base /> should render 1`] = `
   overflow: hidden;
 }
 
-.c16 {
+.c20 {
   font-size: 2.4rem;
 }
 
-.c23 {
+.c24 {
   text-align: center;
   border-top: 1px solid #ddd;
 }
 
-.c23 a {
+.c24 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c23 .c15 {
+.c24 .c19 {
   font-size: 1.6rem;
 }
 
-.c23 .c3 {
-  padding: 0;
-}
-
-.c24 {
+.c25 {
   background-color: #fff;
   color: #0a1128;
   border: 1px solid #0a1128;
@@ -213,11 +216,16 @@ exports[`<Base /> should render 1`] = `
   text-decoration: none;
 }
 
-.c13 .c15 {
+.c13 .c19 {
   margin-bottom: 6.4rem;
 }
 
-.c17 {
+.c15 {
+  margin-bottom: 6.4rem;
+  text-align: center;
+}
+
+.c16 {
   counter-reset: grid-counter;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
@@ -226,12 +234,13 @@ exports[`<Base /> should render 1`] = `
   width: 100%;
 }
 
-.c18 .c6 {
+.c17 .c6 {
   position: relative;
   left: 5rem;
+  text-align: left;
 }
 
-.c18 .c6::before {
+.c17 .c6::before {
   counter-increment: grid-counter;
   content: counter(grid-counter);
   position: absolute;
@@ -259,7 +268,7 @@ exports[`<Base /> should render 1`] = `
   color: #fff;
 }
 
-.c20 {
+.c21 {
   background-color: #fff;
   color: #0a1128;
   min-height: 100vh;
@@ -286,7 +295,7 @@ exports[`<Base /> should render 1`] = `
 }
 
 @media (max-width:768px) {
-  .c21 {
+  .c22 {
     font-size: 4rem;
   }
 }
@@ -360,7 +369,7 @@ exports[`<Base /> should render 1`] = `
 }
 
 @media (max-width:768px) {
-  .c17 {
+  .c16 {
     grid-template-columns: 1fr;
   }
 }
@@ -479,6 +488,7 @@ exports[`<Base /> should render 1`] = `
   >
     <div
       class="c12"
+      id=""
     >
       <div
         class="c3 c4"
@@ -491,52 +501,52 @@ exports[`<Base /> should render 1`] = `
           >
             My grid
           </h2>
-          <div
-            class="c15 c16"
+          <h2
+            class="c15"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-          </div>
+          </h2>
           <div
-            class="c17"
+            class="c16"
           >
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c19"
+                class="c6 c18"
               >
                 Teste 1
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
             </div>
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c19"
+                class="c6 c18"
               >
                 Teste 2
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
             </div>
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c19"
+                class="c6 c18"
               >
                 Teste 3
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
@@ -546,7 +556,8 @@ exports[`<Base /> should render 1`] = `
       </div>
     </div>
     <div
-      class="c20"
+      class="c21"
+      id=""
     >
       <div
         class="c3 c4"
@@ -555,56 +566,56 @@ exports[`<Base /> should render 1`] = `
           class="c13"
         >
           <h2
-            class="c6 c21"
+            class="c6 c22"
           >
             My grid
           </h2>
-          <div
-            class="c15 c16"
+          <h2
+            class="c15"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-          </div>
+          </h2>
           <div
-            class="c17"
+            class="c16"
           >
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c22"
+                class="c6 c23"
               >
                 Teste 1
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
             </div>
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c22"
+                class="c6 c23"
               >
                 Teste 2
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
             </div>
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c22"
+                class="c6 c23"
               >
                 Teste 3
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
@@ -615,6 +626,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c12"
+      id=""
     >
       <div
         class="c3 c4"
@@ -627,52 +639,52 @@ exports[`<Base /> should render 1`] = `
           >
             My grid
           </h2>
-          <div
-            class="c15 c16"
+          <h2
+            class="c15"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-          </div>
+          </h2>
           <div
-            class="c17"
+            class="c16"
           >
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c19"
+                class="c6 c18"
               >
                 Teste 1
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
             </div>
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c19"
+                class="c6 c18"
               >
                 Teste 2
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
             </div>
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c19"
+                class="c6 c18"
               >
                 Teste 3
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
@@ -682,7 +694,8 @@ exports[`<Base /> should render 1`] = `
       </div>
     </div>
     <div
-      class="c20"
+      class="c21"
+      id=""
     >
       <div
         class="c3 c4"
@@ -691,56 +704,56 @@ exports[`<Base /> should render 1`] = `
           class="c13"
         >
           <h2
-            class="c6 c21"
+            class="c6 c22"
           >
             My grid
           </h2>
-          <div
-            class="c15 c16"
+          <h2
+            class="c15"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-          </div>
+          </h2>
           <div
-            class="c17"
+            class="c16"
           >
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c22"
+                class="c6 c23"
               >
                 Teste 1
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
             </div>
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c22"
+                class="c6 c23"
               >
                 Teste 2
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
             </div>
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c22"
+                class="c6 c23"
               >
                 Teste 3
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
@@ -751,6 +764,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c12"
+      id=""
     >
       <div
         class="c3 c4"
@@ -763,52 +777,52 @@ exports[`<Base /> should render 1`] = `
           >
             My grid
           </h2>
-          <div
-            class="c15 c16"
+          <h2
+            class="c15"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-          </div>
+          </h2>
           <div
-            class="c17"
+            class="c16"
           >
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c19"
+                class="c6 c18"
               >
                 Teste 1
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
             </div>
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c19"
+                class="c6 c18"
               >
                 Teste 2
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
             </div>
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c19"
+                class="c6 c18"
               >
                 Teste 3
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
@@ -818,7 +832,8 @@ exports[`<Base /> should render 1`] = `
       </div>
     </div>
     <div
-      class="c20"
+      class="c21"
+      id=""
     >
       <div
         class="c3 c4"
@@ -827,56 +842,56 @@ exports[`<Base /> should render 1`] = `
           class="c13"
         >
           <h2
-            class="c6 c21"
+            class="c6 c22"
           >
             My grid
           </h2>
-          <div
-            class="c15 c16"
+          <h2
+            class="c15"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-          </div>
+          </h2>
           <div
-            class="c17"
+            class="c16"
           >
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c22"
+                class="c6 c23"
               >
                 Teste 1
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
             </div>
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c22"
+                class="c6 c23"
               >
                 Teste 2
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
             </div>
             <div
-              class="c18"
+              class="c17"
             >
               <h3
-                class="c6 c22"
+                class="c6 c23"
               >
                 Teste 3
               </h3>
               <div
-                class="c15 c16"
+                class="c19 c20"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </div>
@@ -886,13 +901,13 @@ exports[`<Base /> should render 1`] = `
       </div>
     </div>
     <footer
-      class="c23"
+      class="c24"
     >
       <div
         class="c3 c4"
       >
         <div
-          class="c15 c16"
+          class="c19 c20"
         >
           <p>
             Teste de footer
@@ -903,7 +918,7 @@ exports[`<Base /> should render 1`] = `
   </div>
   <a
     aria-label="Go to top"
-    class="c24"
+    class="c25"
     href="#"
     title="Go to top"
   >

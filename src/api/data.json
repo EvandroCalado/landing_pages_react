@@ -3,10 +3,10 @@
     {
       "id": 2,
       "attributes": {
-        "title": "Olha só a minha página",
-        "slug": "olha-so-a-minha-pagina",
+        "title": "landing_page",
+        "slug": "landing-page",
         "createdAt": "2023-02-27T15:14:05.182Z",
-        "updatedAt": "2023-03-07T18:13:45.650Z",
+        "updatedAt": "2023-03-12T18:20:14.423Z",
         "publishedAt": "2023-02-27T18:03:38.928Z",
         "footer": "Feito com ❤ por Evandro Calado",
         "sections": [
@@ -62,37 +62,49 @@
           },
           {
             "id": 1,
-            "__component": "section.section-grid",
-            "title": "MY GRID",
-            "description": "Uma breve descrição.\n\n",
+            "__component": "section.section-grid-text",
+            "title": "my grid",
+            "description": "Uma breve descrição.",
             "metadata": {
-              "id": 2,
-              "name": "gallery",
-              "section_id": "gallery",
+              "id": 5,
+              "name": "grid-one",
+              "section_id": "grid-one",
               "background": true
             },
             "text_grid": [
               {
-                "id": 1,
+                "id": 4,
                 "title": "Teste 1",
-                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.\n\n"
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
               },
-              {
-                "id": 2,
-                "title": "Teste 2",
-                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.\n\n"
-              },
-              {
-                "id": 3,
-                "title": "Teste 3",
-                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.\n\n"
-              }
-            ],
-            "image_grid": [
               {
                 "id": 5,
+                "title": "Teste 2",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+              },
+              {
+                "id": 6,
+                "title": "Teste 3",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "__component": "section.section-grid-image",
+            "title": "gallery",
+            "description": "Uma breve descrição.\n\n",
+            "metadata": {
+              "id": 4,
+              "name": "gallery",
+              "section_id": "gallery",
+              "background": false
+            },
+            "image_grid": [
+              {
+                "id": 6,
                 "title": "gallery",
-                "description": "gallery",
+                "description": "Uma breve descrição.",
                 "image_gallery": {
                   "data": [
                     {
@@ -339,11 +351,103 @@
                 }
               }
             ]
+          },
+          {
+            "id": 2,
+            "__component": "section.section-grid-text",
+            "title": "my grid",
+            "description": "Uma breve descrição.",
+            "metadata": {
+              "id": 6,
+              "name": "grid-two",
+              "section_id": "grid-two",
+              "background": true
+            },
+            "text_grid": [
+              {
+                "id": 7,
+                "title": "Teste 1",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+              },
+              {
+                "id": 8,
+                "title": "Teste 2",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+              },
+              {
+                "id": 9,
+                "title": "Teste 3",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "__component": "section.pricing",
+            "description_one": "The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.",
+            "description_two": "We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.",
+            "title": "pricing",
+            "metadata": {
+              "id": 8,
+              "name": "pricing",
+              "section_id": "pricing",
+              "background": false
+            },
+            "table": [
+              {
+                "id": 1,
+                "head": "title 1",
+                "body": "content1",
+                "footer": "footer 1"
+              },
+              {
+                "id": 2,
+                "head": "title 2",
+                "body": "content2",
+                "footer": "footer 2"
+              },
+              {
+                "id": 3,
+                "head": "title 3",
+                "body": "content3",
+                "footer": "footer 3"
+              },
+              {
+                "id": 4,
+                "head": "title 4",
+                "body": "content4",
+                "footer": "footer 4"
+              },
+              {
+                "id": 5,
+                "head": "title 5",
+                "body": "content5",
+                "footer": "footer 5"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "__component": "section.section-contact",
+            "metadata": {
+              "id": 9,
+              "name": "contact",
+              "section_id": "contact",
+              "background": true
+            },
+            "contact": {
+              "id": 1,
+              "first_name": "First Name",
+              "last_name": "Last Name",
+              "email": "Email",
+              "message": "Message",
+              "button": "Send Message"
+            }
           }
         ],
         "menu": {
-          "id": 1,
-          "logo_link": "#home",
+          "id": 2,
+          "logo_link": "#",
           "logo_text": "Logo",
           "logo": {
             "data": {
@@ -373,38 +477,38 @@
           },
           "menu_links": [
             {
-              "id": 1,
-              "link_text": "intro",
+              "id": 10,
+              "link_text": "Intro",
               "url": "#intro",
               "open_in_new_tab": false
             },
             {
-              "id": 2,
-              "link_text": "grid-one",
+              "id": 8,
+              "link_text": "Grid One",
               "url": "#grid-one",
               "open_in_new_tab": false
             },
             {
-              "id": 4,
-              "link_text": "gallery",
+              "id": 7,
+              "link_text": "Gallery",
               "url": "#gallery",
               "open_in_new_tab": false
             },
             {
-              "id": 5,
-              "link_text": "grid-two",
+              "id": 9,
+              "link_text": "Grid Two",
               "url": "#grid-two",
               "open_in_new_tab": false
             },
             {
-              "id": 3,
-              "link_text": "pricing",
+              "id": 11,
+              "link_text": "Pricing",
               "url": "#pricing",
               "open_in_new_tab": false
             },
             {
-              "id": 6,
-              "link_text": "contact",
+              "id": 12,
+              "link_text": "Contact",
               "url": "#contact",
               "open_in_new_tab": false
             }
@@ -416,7 +520,7 @@
   "meta": {
     "pagination": {
       "page": 1,
-      "pageSize": 1,
+      "pageSize": 25,
       "pageCount": 1,
       "total": 1
     }
