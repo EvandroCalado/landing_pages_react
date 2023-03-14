@@ -22,7 +22,7 @@ const Home = () => {
     const load = async () => {
       try {
         const data = await fetch(
-          `https://strapi-production-b207.up.railway.app/api/pages/?populate[sections][populate]=*&populate[menu][populate]=*&filters[slug]=${slug}`
+          `https://strapi-production-b207.up.railway.app/api/pages?populate[sections][populate]=*&populate[menu][populate]=*&filters[slug]=${slug}`
         );
         const json = await data.json();
         const { attributes } = await json.data[0];
@@ -73,7 +73,7 @@ const Home = () => {
           return <GridImage key={key} {...section} />;
         }
 
-        if (component === 'section.pricing') {
+        if (component === 'section.section-pricing') {
           return <Pricing key={key} {...section} />;
         }
 

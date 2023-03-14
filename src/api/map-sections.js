@@ -16,7 +16,7 @@ export const mapSections = (sections = []) => {
       return mapImageGrid(section);
     }
 
-    if (section.__component === 'section.pricing') {
+    if (section.__component === 'section.section-pricing') {
       return mapPricing(section);
     }
 
@@ -99,15 +99,13 @@ export const mapImageGrid = (section = {}) => {
     image_grid,
   } = section;
 
-  const imageGrid = image_grid[0].image_gallery.data;
-
   return {
     component,
     title,
     description,
     background,
     sectionId,
-    grid: imageGrid.map((img) => {
+    grid: image_grid.data.map((img) => {
       const { url: image, name: altText } = img.attributes;
 
       return {
@@ -150,7 +148,11 @@ export const mapSectionContact = (section = {}) => {
 
   const {
     __component: component = '',
-    metadata: { background = true, section_id: sectionId = '', name = '' } = false,
+    metadata: {
+      background = true,
+      section_id: sectionId = '',
+      name = '',
+    } = false,
   } = section;
 
   return {
