@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pricing /> should render 1`] = `
+.c3 {
+  color: #0a1128;
+  font-size: 6.4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.c1 {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background-color: #fff;
+  color: #0a1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 {
+  width: 100%;
+  max-width: 60.4rem;
+  margin: 0 auto;
+}
+
+.c2 .c4 {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.c7 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  color: #0a1128;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+
+.c7 caption {
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.c7 thead,
+.c7 tfoot {
+  background-color: #ddd;
+}
+
+.c7 td,
+.c7 th {
+  padding: 0.5rem 1rem;
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    id=""
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1
+          class="c3"
+        >
+          pricing
+        </h1>
+        <div
+          class="c4 c5"
+        >
+          The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.
+        </div>
+        <div
+          class="c4 c5"
+        >
+          We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.
+        </div>
+        <div
+          class="c6"
+        >
+          <table
+            class="c7"
+          >
+            <caption>
+              Pricing table
+            </caption>
+            <thead>
+              <tr>
+                <th>
+                  title 1
+                </th>
+                <th>
+                  title 2
+                </th>
+                <th>
+                  title 3
+                </th>
+                <th>
+                  title 4
+                </th>
+                <th>
+                  title 5
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  content1
+                </td>
+                <td>
+                  content2
+                </td>
+                <td>
+                  content3
+                </td>
+                <td>
+                  content4
+                </td>
+                <td>
+                  content5
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  content1
+                </td>
+                <td>
+                  content2
+                </td>
+                <td>
+                  content3
+                </td>
+                <td>
+                  content4
+                </td>
+                <td>
+                  content5
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  content1
+                </td>
+                <td>
+                  content2
+                </td>
+                <td>
+                  content3
+                </td>
+                <td>
+                  content4
+                </td>
+                <td>
+                  content5
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>
+                  footer 1
+                </td>
+                <td>
+                  footer 2
+                </td>
+                <td>
+                  footer 3
+                </td>
+                <td>
+                  footer 4
+                </td>
+                <td>
+                  footer 5
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

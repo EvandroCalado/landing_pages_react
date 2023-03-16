@@ -1,503 +1,508 @@
-{
-  "data": [
-    {
-      "id": 1,
-      "attributes": {
-        "title": "landing_page",
-        "slug": "landing-page",
-        "createdAt": "2023-03-13T19:21:36.548Z",
-        "updatedAt": "2023-03-14T17:32:41.700Z",
-        "publishedAt": "2023-03-13T19:21:42.460Z",
-        "footer": "Feito com 💕 por <a href=\"https://github.com/EvandroCalado\" target=\"_blank\" >Evandro Calado</a>",
-        "sections": [
-          {
-            "id": 1,
-            "__component": "section.section-two-columns",
-            "title": "JANUARY BRINGS US FIREFOX 85",
-            "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
-            "image": {
-              "data": {
-                "id": 2,
-                "attributes": {
-                  "name": "javascript.svg",
-                  "alternativeText": null,
-                  "caption": null,
-                  "width": 1030,
-                  "height": 730,
-                  "formats": null,
-                  "hash": "javascript_200e4162bb",
-                  "ext": ".svg",
-                  "mime": "image/svg+xml",
-                  "size": 30.31,
-                  "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678735252/javascript_200e4162bb.svg",
-                  "previewUrl": null,
-                  "provider": "cloudinary",
-                  "provider_metadata": {
-                    "public_id": "javascript_200e4162bb",
-                    "resource_type": "image"
-                  },
-                  "createdAt": "2023-03-13T19:20:53.913Z",
-                  "updatedAt": "2023-03-13T19:20:53.913Z"
-                }
-              }
-            },
-            "metadata": {
-              "id": 1,
-              "name": "home",
-              "section_id": "home",
-              "background": true
-            }
-          },
-          {
-            "id": 1,
-            "__component": "section.section-content",
-            "title": "NEWS COVERAGE AND SOME SURPRISES",
-            "content": "The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.\\n\\nWe’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.\\n\\nWe’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.",
-            "metadata": {
-              "id": 2,
-              "name": "intro",
-              "section_id": "intro",
-              "background": false
-            }
-          },
-          {
-            "id": 1,
-            "__component": "section.section-grid-text",
-            "title": "my grid",
-            "description": "Uma breve descrição.",
-            "text_grid": [
-              {
-                "id": 1,
-                "title": "Teste 1",
-                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
-              },
-              {
-                "id": 3,
-                "title": "Teste 2",
-                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
-              },
-              {
-                "id": 2,
-                "title": "Teste 3",
-                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
-              }
-            ],
-            "metadata": {
-              "id": 3,
-              "name": "grid-one",
-              "section_id": "grid-one",
-              "background": true
-            }
-          },
-          {
+[
+  {
+    "title": "landing_page",
+    "slug": "landing-page",
+    "createdAt": "2023-03-13T19:21:36.548Z",
+    "updatedAt": "2023-03-14T17:43:45.879Z",
+    "publishedAt": "2023-03-13T19:21:42.460Z",
+    "footer": "Feito com 💕 por <a href=\"https://github.com/EvandroCalado\" target=\"_blank\" >Evandro Calado</a>",
+    "sections": [
+      {
+        "id": 1,
+        "__component": "section.section-two-columns",
+        "title": "JANUARY BRINGS US FIREFOX 85",
+        "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
+        "image": {
+          "data": {
             "id": 2,
-            "__component": "section.section-grid-image",
-            "title": "gallery",
-            "description": "Uma breve descrição.",
-            "metadata": {
-              "id": 5,
-              "name": "gallery",
-              "section_id": "gallery",
-              "background": false
-            },
-            "image_grid": {
-              "data": [
-                {
-                  "id": 8,
-                  "attributes": {
-                    "name": "photo_1649001052863_099932ef80d1_901e8323be.jpg",
-                    "alternativeText": null,
-                    "caption": null,
-                    "width": 360,
-                    "height": 360,
-                    "formats": {
-                      "thumbnail": {
-                        "ext": ".jpg",
-                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/thumbnail_photo_1649001052863_099932ef80d1_901e8323be_d2cc483df1.jpg",
-                        "hash": "thumbnail_photo_1649001052863_099932ef80d1_901e8323be_d2cc483df1",
-                        "mime": "image/jpeg",
-                        "name": "thumbnail_photo_1649001052863_099932ef80d1_901e8323be.jpg",
-                        "path": null,
-                        "size": 5.61,
-                        "width": 156,
-                        "height": 156,
-                        "provider_metadata": {
-                          "public_id": "thumbnail_photo_1649001052863_099932ef80d1_901e8323be_d2cc483df1",
-                          "resource_type": "image"
-                        }
-                      }
-                    },
-                    "hash": "photo_1649001052863_099932ef80d1_901e8323be_d2cc483df1",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "size": 19.58,
-                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/photo_1649001052863_099932ef80d1_901e8323be_d2cc483df1.jpg",
-                    "previewUrl": null,
-                    "provider": "cloudinary",
-                    "provider_metadata": {
-                      "public_id": "photo_1649001052863_099932ef80d1_901e8323be_d2cc483df1",
-                      "resource_type": "image"
-                    },
-                    "createdAt": "2023-03-13T22:10:04.111Z",
-                    "updatedAt": "2023-03-14T13:38:00.889Z"
-                  }
-                },
-                {
-                  "id": 7,
-                  "attributes": {
-                    "name": "photo_1633843195379_b4ed419ddea2_fc5a42851e.jpg",
-                    "alternativeText": null,
-                    "caption": null,
-                    "width": 360,
-                    "height": 360,
-                    "formats": {
-                      "thumbnail": {
-                        "ext": ".jpg",
-                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/thumbnail_photo_1633843195379_b4ed419ddea2_fc5a42851e_90f8ba2940.jpg",
-                        "hash": "thumbnail_photo_1633843195379_b4ed419ddea2_fc5a42851e_90f8ba2940",
-                        "mime": "image/jpeg",
-                        "name": "thumbnail_photo_1633843195379_b4ed419ddea2_fc5a42851e.jpg",
-                        "path": null,
-                        "size": 7.93,
-                        "width": 156,
-                        "height": 156,
-                        "provider_metadata": {
-                          "public_id": "thumbnail_photo_1633843195379_b4ed419ddea2_fc5a42851e_90f8ba2940",
-                          "resource_type": "image"
-                        }
-                      }
-                    },
-                    "hash": "photo_1633843195379_b4ed419ddea2_fc5a42851e_90f8ba2940",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "size": 33.35,
-                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/photo_1633843195379_b4ed419ddea2_fc5a42851e_90f8ba2940.jpg",
-                    "previewUrl": null,
-                    "provider": "cloudinary",
-                    "provider_metadata": {
-                      "public_id": "photo_1633843195379_b4ed419ddea2_fc5a42851e_90f8ba2940",
-                      "resource_type": "image"
-                    },
-                    "createdAt": "2023-03-13T22:10:04.071Z",
-                    "updatedAt": "2023-03-13T22:10:04.071Z"
-                  }
-                },
-                {
-                  "id": 6,
-                  "attributes": {
-                    "name": "photo_1607802875758_3aaa1a149203_62d3188c12.jpg",
-                    "alternativeText": null,
-                    "caption": null,
-                    "width": 360,
-                    "height": 360,
-                    "formats": {
-                      "thumbnail": {
-                        "ext": ".jpg",
-                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/thumbnail_photo_1607802875758_3aaa1a149203_62d3188c12_9c405b63a6.jpg",
-                        "hash": "thumbnail_photo_1607802875758_3aaa1a149203_62d3188c12_9c405b63a6",
-                        "mime": "image/jpeg",
-                        "name": "thumbnail_photo_1607802875758_3aaa1a149203_62d3188c12.jpg",
-                        "path": null,
-                        "size": 8.68,
-                        "width": 156,
-                        "height": 156,
-                        "provider_metadata": {
-                          "public_id": "thumbnail_photo_1607802875758_3aaa1a149203_62d3188c12_9c405b63a6",
-                          "resource_type": "image"
-                        }
-                      }
-                    },
-                    "hash": "photo_1607802875758_3aaa1a149203_62d3188c12_9c405b63a6",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "size": 34.31,
-                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/photo_1607802875758_3aaa1a149203_62d3188c12_9c405b63a6.jpg",
-                    "previewUrl": null,
-                    "provider": "cloudinary",
-                    "provider_metadata": {
-                      "public_id": "photo_1607802875758_3aaa1a149203_62d3188c12_9c405b63a6",
-                      "resource_type": "image"
-                    },
-                    "createdAt": "2023-03-13T22:10:03.919Z",
-                    "updatedAt": "2023-03-13T22:10:03.919Z"
-                  }
-                },
-                {
-                  "id": 5,
-                  "attributes": {
-                    "name": "photo_1629997047282_41f678126175_c9c8690c82.jpg",
-                    "alternativeText": null,
-                    "caption": null,
-                    "width": 360,
-                    "height": 360,
-                    "formats": {
-                      "thumbnail": {
-                        "ext": ".jpg",
-                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/thumbnail_photo_1629997047282_41f678126175_c9c8690c82_fda540e9c3.jpg",
-                        "hash": "thumbnail_photo_1629997047282_41f678126175_c9c8690c82_fda540e9c3",
-                        "mime": "image/jpeg",
-                        "name": "thumbnail_photo_1629997047282_41f678126175_c9c8690c82.jpg",
-                        "path": null,
-                        "size": 6.59,
-                        "width": 156,
-                        "height": 156,
-                        "provider_metadata": {
-                          "public_id": "thumbnail_photo_1629997047282_41f678126175_c9c8690c82_fda540e9c3",
-                          "resource_type": "image"
-                        }
-                      }
-                    },
-                    "hash": "photo_1629997047282_41f678126175_c9c8690c82_fda540e9c3",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "size": 27.39,
-                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/photo_1629997047282_41f678126175_c9c8690c82_fda540e9c3.jpg",
-                    "previewUrl": null,
-                    "provider": "cloudinary",
-                    "provider_metadata": {
-                      "public_id": "photo_1629997047282_41f678126175_c9c8690c82_fda540e9c3",
-                      "resource_type": "image"
-                    },
-                    "createdAt": "2023-03-13T22:10:03.873Z",
-                    "updatedAt": "2023-03-13T22:10:03.873Z"
-                  }
-                },
-                {
-                  "id": 4,
-                  "attributes": {
-                    "name": "photo_1592459996257_081359053570_a9fa420eb0.jpg",
-                    "alternativeText": null,
-                    "caption": null,
-                    "width": 360,
-                    "height": 360,
-                    "formats": {
-                      "thumbnail": {
-                        "ext": ".jpg",
-                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/thumbnail_photo_1592459996257_081359053570_a9fa420eb0_46109a0468.jpg",
-                        "hash": "thumbnail_photo_1592459996257_081359053570_a9fa420eb0_46109a0468",
-                        "mime": "image/jpeg",
-                        "name": "thumbnail_photo_1592459996257_081359053570_a9fa420eb0.jpg",
-                        "path": null,
-                        "size": 3.96,
-                        "width": 156,
-                        "height": 156,
-                        "provider_metadata": {
-                          "public_id": "thumbnail_photo_1592459996257_081359053570_a9fa420eb0_46109a0468",
-                          "resource_type": "image"
-                        }
-                      }
-                    },
-                    "hash": "photo_1592459996257_081359053570_a9fa420eb0_46109a0468",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "size": 14.64,
-                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/photo_1592459996257_081359053570_a9fa420eb0_46109a0468.jpg",
-                    "previewUrl": null,
-                    "provider": "cloudinary",
-                    "provider_metadata": {
-                      "public_id": "photo_1592459996257_081359053570_a9fa420eb0_46109a0468",
-                      "resource_type": "image"
-                    },
-                    "createdAt": "2023-03-13T22:10:03.517Z",
-                    "updatedAt": "2023-03-13T22:10:03.517Z"
-                  }
-                },
-                {
-                  "id": 3,
-                  "attributes": {
-                    "name": "photo_1552666262_1f35b9080e83_f38813e26c.jpg",
-                    "alternativeText": null,
-                    "caption": null,
-                    "width": 360,
-                    "height": 360,
-                    "formats": {
-                      "thumbnail": {
-                        "ext": ".jpg",
-                        "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/thumbnail_photo_1552666262_1f35b9080e83_f38813e26c_b74fa292c5.jpg",
-                        "hash": "thumbnail_photo_1552666262_1f35b9080e83_f38813e26c_b74fa292c5",
-                        "mime": "image/jpeg",
-                        "name": "thumbnail_photo_1552666262_1f35b9080e83_f38813e26c.jpg",
-                        "path": null,
-                        "size": 4.18,
-                        "width": 156,
-                        "height": 156,
-                        "provider_metadata": {
-                          "public_id": "thumbnail_photo_1552666262_1f35b9080e83_f38813e26c_b74fa292c5",
-                          "resource_type": "image"
-                        }
-                      }
-                    },
-                    "hash": "photo_1552666262_1f35b9080e83_f38813e26c_b74fa292c5",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "size": 14.88,
-                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745402/photo_1552666262_1f35b9080e83_f38813e26c_b74fa292c5.jpg",
-                    "previewUrl": null,
-                    "provider": "cloudinary",
-                    "provider_metadata": {
-                      "public_id": "photo_1552666262_1f35b9080e83_f38813e26c_b74fa292c5",
-                      "resource_type": "image"
-                    },
-                    "createdAt": "2023-03-13T22:10:03.442Z",
-                    "updatedAt": "2023-03-13T22:10:03.442Z"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "id": 2,
-            "__component": "section.section-grid-text",
-            "title": "my grid",
-            "description": "Uma breve descrição.",
-            "text_grid": [
-              {
-                "id": 4,
-                "title": "Teste 1",
-                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+            "attributes": {
+              "name": "javascript.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1030,
+              "height": 730,
+              "formats": null,
+              "hash": "javascript_200e4162bb",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 30.31,
+              "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678735252/javascript_200e4162bb.svg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "javascript_200e4162bb",
+                "resource_type": "image"
               },
-              {
-                "id": 5,
-                "title": "Teste 2",
-                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
-              },
-              {
-                "id": 6,
-                "title": "Teste 3",
-                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
-              }
-            ],
-            "metadata": {
-              "id": 6,
-              "name": "grid-two",
-              "section_id": "grid-two",
-              "background": true
-            }
-          },
-          {
-            "id": 1,
-            "__component": "section.section-pricing",
-            "title": "pricing",
-            "description_one": "The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.",
-            "description_two": "We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.",
-            "table": [
-              {
-                "id": 1,
-                "head": "title 1",
-                "body": "content1",
-                "footer": "footer 1"
-              },
-              {
-                "id": 2,
-                "head": "title 2",
-                "body": "content2",
-                "footer": "footer 2"
-              },
-              {
-                "id": 3,
-                "head": "title 3",
-                "body": "content3",
-                "footer": "footer 3"
-              },
-              {
-                "id": 4,
-                "head": "title 4",
-                "body": "content4",
-                "footer": "footer 4"
-              },
-              {
-                "id": 5,
-                "head": "title 5",
-                "body": "content5",
-                "footer": "footer 5"
-              }
-            ],
-            "metadata": {
-              "id": 7,
-              "name": "pricing",
-              "section_id": "pricing",
-              "background": false
+              "createdAt": "2023-03-13T19:20:53.913Z",
+              "updatedAt": "2023-03-13T19:20:53.913Z"
             }
           }
-        ],
-        "menu": {
+        },
+        "metadata": {
           "id": 1,
-          "logo_link": "home",
-          "logo_text": "Logo",
-          "logo": {
-            "data": {
-              "id": 1,
+          "name": "home",
+          "section_id": "home",
+          "background": true
+        }
+      },
+      {
+        "id": 1,
+        "__component": "section.section-content",
+        "title": "NEWS COVERAGE AND SOME SURPRISES",
+        "content": "The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.\\n\\nWe’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.\\n\\nWe’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.",
+        "metadata": {
+          "id": 2,
+          "name": "intro",
+          "section_id": "intro",
+          "background": false
+        }
+      },
+      {
+        "id": 1,
+        "__component": "section.section-grid-text",
+        "title": "my grid",
+        "description": "Uma breve descrição.",
+        "text_grid": [
+          {
+            "id": 1,
+            "title": "Teste 1",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+          },
+          {
+            "id": 3,
+            "title": "Teste 2",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+          },
+          {
+            "id": 2,
+            "title": "Teste 3",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+          }
+        ],
+        "metadata": {
+          "id": 3,
+          "name": "grid-one",
+          "section_id": "grid-one",
+          "background": true
+        }
+      },
+      {
+        "id": 2,
+        "__component": "section.section-grid-image",
+        "title": "gallery",
+        "description": "Uma breve descrição.",
+        "metadata": {
+          "id": 5,
+          "name": "gallery",
+          "section_id": "gallery",
+          "background": false
+        },
+        "image_grid": {
+          "data": [
+            {
+              "id": 8,
               "attributes": {
-                "name": "landing_page_2_c6baa21725.svg",
+                "name": "photo_1649001052863_099932ef80d1_901e8323be.jpg",
                 "alternativeText": null,
                 "caption": null,
-                "width": 47,
-                "height": 9,
-                "formats": null,
-                "hash": "landing_page_2_c6baa21725_c39ce760eb",
-                "ext": ".svg",
-                "mime": "image/svg+xml",
-                "size": 2.51,
-                "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678735148/landing_page_2_c6baa21725_c39ce760eb.svg",
+                "width": 360,
+                "height": 360,
+                "formats": {
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/thumbnail_photo_1649001052863_099932ef80d1_901e8323be_d2cc483df1.jpg",
+                    "hash": "thumbnail_photo_1649001052863_099932ef80d1_901e8323be_d2cc483df1",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_photo_1649001052863_099932ef80d1_901e8323be.jpg",
+                    "path": null,
+                    "size": 5.61,
+                    "width": 156,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_photo_1649001052863_099932ef80d1_901e8323be_d2cc483df1",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "photo_1649001052863_099932ef80d1_901e8323be_d2cc483df1",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 19.58,
+                "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/photo_1649001052863_099932ef80d1_901e8323be_d2cc483df1.jpg",
                 "previewUrl": null,
                 "provider": "cloudinary",
                 "provider_metadata": {
-                  "public_id": "landing_page_2_c6baa21725_c39ce760eb",
+                  "public_id": "photo_1649001052863_099932ef80d1_901e8323be_d2cc483df1",
                   "resource_type": "image"
                 },
-                "createdAt": "2023-03-13T19:19:09.613Z",
-                "updatedAt": "2023-03-13T19:19:09.613Z"
+                "createdAt": "2023-03-13T22:10:04.111Z",
+                "updatedAt": "2023-03-14T13:38:00.889Z"
               }
-            }
-          },
-          "menu_links": [
-            {
-              "id": 1,
-              "link_text": "Intro",
-              "url": "#intro",
-              "open_in_new_tab": false
             },
             {
-              "id": 2,
-              "link_text": "Grid One",
-              "url": "#grid-one",
-              "open_in_new_tab": false
-            },
-            {
-              "id": 3,
-              "link_text": "Gallery",
-              "url": "#gallery",
-              "open_in_new_tab": false
-            },
-            {
-              "id": 4,
-              "link_text": "Grid Two",
-              "url": "#grid-two",
-              "open_in_new_tab": false
-            },
-            {
-              "id": 5,
-              "link_text": "Pricing",
-              "url": "#pricing",
-              "open_in_new_tab": false
+              "id": 7,
+              "attributes": {
+                "name": "photo_1633843195379_b4ed419ddea2_fc5a42851e.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 360,
+                "height": 360,
+                "formats": {
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/thumbnail_photo_1633843195379_b4ed419ddea2_fc5a42851e_90f8ba2940.jpg",
+                    "hash": "thumbnail_photo_1633843195379_b4ed419ddea2_fc5a42851e_90f8ba2940",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_photo_1633843195379_b4ed419ddea2_fc5a42851e.jpg",
+                    "path": null,
+                    "size": 7.93,
+                    "width": 156,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_photo_1633843195379_b4ed419ddea2_fc5a42851e_90f8ba2940",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "photo_1633843195379_b4ed419ddea2_fc5a42851e_90f8ba2940",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 33.35,
+                "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/photo_1633843195379_b4ed419ddea2_fc5a42851e_90f8ba2940.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "photo_1633843195379_b4ed419ddea2_fc5a42851e_90f8ba2940",
+                  "resource_type": "image"
+                },
+                "createdAt": "2023-03-13T22:10:04.071Z",
+                "updatedAt": "2023-03-13T22:10:04.071Z"
+              }
             },
             {
               "id": 6,
-              "link_text": "Contact",
-              "url": "#contact",
-              "open_in_new_tab": false
+              "attributes": {
+                "name": "photo_1607802875758_3aaa1a149203_62d3188c12.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 360,
+                "height": 360,
+                "formats": {
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/thumbnail_photo_1607802875758_3aaa1a149203_62d3188c12_9c405b63a6.jpg",
+                    "hash": "thumbnail_photo_1607802875758_3aaa1a149203_62d3188c12_9c405b63a6",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_photo_1607802875758_3aaa1a149203_62d3188c12.jpg",
+                    "path": null,
+                    "size": 8.68,
+                    "width": 156,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_photo_1607802875758_3aaa1a149203_62d3188c12_9c405b63a6",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "photo_1607802875758_3aaa1a149203_62d3188c12_9c405b63a6",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 34.31,
+                "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/photo_1607802875758_3aaa1a149203_62d3188c12_9c405b63a6.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "photo_1607802875758_3aaa1a149203_62d3188c12_9c405b63a6",
+                  "resource_type": "image"
+                },
+                "createdAt": "2023-03-13T22:10:03.919Z",
+                "updatedAt": "2023-03-13T22:10:03.919Z"
+              }
+            },
+            {
+              "id": 5,
+              "attributes": {
+                "name": "photo_1629997047282_41f678126175_c9c8690c82.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 360,
+                "height": 360,
+                "formats": {
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/thumbnail_photo_1629997047282_41f678126175_c9c8690c82_fda540e9c3.jpg",
+                    "hash": "thumbnail_photo_1629997047282_41f678126175_c9c8690c82_fda540e9c3",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_photo_1629997047282_41f678126175_c9c8690c82.jpg",
+                    "path": null,
+                    "size": 6.59,
+                    "width": 156,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_photo_1629997047282_41f678126175_c9c8690c82_fda540e9c3",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "photo_1629997047282_41f678126175_c9c8690c82_fda540e9c3",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 27.39,
+                "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/photo_1629997047282_41f678126175_c9c8690c82_fda540e9c3.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "photo_1629997047282_41f678126175_c9c8690c82_fda540e9c3",
+                  "resource_type": "image"
+                },
+                "createdAt": "2023-03-13T22:10:03.873Z",
+                "updatedAt": "2023-03-13T22:10:03.873Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "photo_1592459996257_081359053570_a9fa420eb0.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 360,
+                "height": 360,
+                "formats": {
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/thumbnail_photo_1592459996257_081359053570_a9fa420eb0_46109a0468.jpg",
+                    "hash": "thumbnail_photo_1592459996257_081359053570_a9fa420eb0_46109a0468",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_photo_1592459996257_081359053570_a9fa420eb0.jpg",
+                    "path": null,
+                    "size": 3.96,
+                    "width": 156,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_photo_1592459996257_081359053570_a9fa420eb0_46109a0468",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "photo_1592459996257_081359053570_a9fa420eb0_46109a0468",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 14.64,
+                "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/photo_1592459996257_081359053570_a9fa420eb0_46109a0468.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "photo_1592459996257_081359053570_a9fa420eb0_46109a0468",
+                  "resource_type": "image"
+                },
+                "createdAt": "2023-03-13T22:10:03.517Z",
+                "updatedAt": "2023-03-13T22:10:03.517Z"
+              }
+            },
+            {
+              "id": 3,
+              "attributes": {
+                "name": "photo_1552666262_1f35b9080e83_f38813e26c.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 360,
+                "height": 360,
+                "formats": {
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745403/thumbnail_photo_1552666262_1f35b9080e83_f38813e26c_b74fa292c5.jpg",
+                    "hash": "thumbnail_photo_1552666262_1f35b9080e83_f38813e26c_b74fa292c5",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_photo_1552666262_1f35b9080e83_f38813e26c.jpg",
+                    "path": null,
+                    "size": 4.18,
+                    "width": 156,
+                    "height": 156,
+                    "provider_metadata": {
+                      "public_id": "thumbnail_photo_1552666262_1f35b9080e83_f38813e26c_b74fa292c5",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "photo_1552666262_1f35b9080e83_f38813e26c_b74fa292c5",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 14.88,
+                "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678745402/photo_1552666262_1f35b9080e83_f38813e26c_b74fa292c5.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "photo_1552666262_1f35b9080e83_f38813e26c_b74fa292c5",
+                  "resource_type": "image"
+                },
+                "createdAt": "2023-03-13T22:10:03.442Z",
+                "updatedAt": "2023-03-13T22:10:03.442Z"
+              }
             }
           ]
         }
+      },
+      {
+        "id": 2,
+        "__component": "section.section-grid-text",
+        "title": "my grid",
+        "description": "Uma breve descrição.",
+        "text_grid": [
+          {
+            "id": 4,
+            "title": "Teste 1",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+          },
+          {
+            "id": 5,
+            "title": "Teste 2",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+          },
+          {
+            "id": 6,
+            "title": "Teste 3",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+          }
+        ],
+        "metadata": {
+          "id": 6,
+          "name": "grid-two",
+          "section_id": "grid-two",
+          "background": true
+        }
+      },
+      {
+        "id": 1,
+        "__component": "section.section-pricing",
+        "title": "pricing",
+        "description_one": "The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.",
+        "description_two": "We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.",
+        "table": [
+          {
+            "id": 1,
+            "head": "title 1",
+            "body": "content1",
+            "footer": "footer 1"
+          },
+          {
+            "id": 2,
+            "head": "title 2",
+            "body": "content2",
+            "footer": "footer 2"
+          },
+          {
+            "id": 3,
+            "head": "title 3",
+            "body": "content3",
+            "footer": "footer 3"
+          },
+          {
+            "id": 4,
+            "head": "title 4",
+            "body": "content4",
+            "footer": "footer 4"
+          },
+          {
+            "id": 5,
+            "head": "title 5",
+            "body": "content5",
+            "footer": "footer 5"
+          }
+        ],
+        "metadata": {
+          "id": 7,
+          "name": "pricing",
+          "section_id": "pricing",
+          "background": false
+        }
+      },
+      {
+        "id": 1,
+        "__component": "section.section-contact",
+        "contact": {
+          "id": 1,
+          "first_name": "First Name",
+          "last_name": "Last Name",
+          "email": "Email",
+          "message": "Message",
+          "button": "Send Message"
+        },
+        "metadata": {
+          "id": 8,
+          "name": "contact",
+          "section_id": "contact",
+          "background": true
+        }
       }
-    }
-  ],
-  "meta": {
-    "pagination": {
-      "page": 1,
-      "pageSize": 25,
-      "pageCount": 1,
-      "total": 1
+    ],
+    "menu": {
+      "id": 1,
+      "logo_link": "#",
+      "logo_text": "Logo",
+      "logo": {
+        "data": {
+          "id": 1,
+          "attributes": {
+            "name": "landing_page_2_c6baa21725.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 47,
+            "height": 9,
+            "formats": null,
+            "hash": "landing_page_2_c6baa21725_c39ce760eb",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 2.51,
+            "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1678735148/landing_page_2_c6baa21725_c39ce760eb.svg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "landing_page_2_c6baa21725_c39ce760eb",
+              "resource_type": "image"
+            },
+            "createdAt": "2023-03-13T19:19:09.613Z",
+            "updatedAt": "2023-03-13T19:19:09.613Z"
+          }
+        }
+      },
+      "menu_links": [
+        {
+          "id": 1,
+          "link_text": "Intro",
+          "url": "#intro",
+          "open_in_new_tab": false
+        },
+        {
+          "id": 2,
+          "link_text": "Grid One",
+          "url": "#grid-one",
+          "open_in_new_tab": false
+        },
+        {
+          "id": 3,
+          "link_text": "Gallery",
+          "url": "#gallery",
+          "open_in_new_tab": false
+        },
+        {
+          "id": 4,
+          "link_text": "Grid Two",
+          "url": "#grid-two",
+          "open_in_new_tab": false
+        },
+        {
+          "id": 5,
+          "link_text": "Pricing",
+          "url": "#pricing",
+          "open_in_new_tab": false
+        },
+        {
+          "id": 6,
+          "link_text": "Contact",
+          "url": "#contact",
+          "open_in_new_tab": false
+        }
+      ]
     }
   }
-}
+]

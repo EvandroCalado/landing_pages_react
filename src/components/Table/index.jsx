@@ -1,7 +1,7 @@
 import P from 'prop-types';
 import * as Styled from './styles';
 
-const Table = ({ table = {} }) => {
+const Table = ({ table = [] }) => {
   return (
     <Styled.Container>
       <Styled.Table>

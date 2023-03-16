@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> should render table 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.c1 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  color: #0a1128;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+
+.c1 caption {
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.c1 thead,
+.c1 tfoot {
+  background-color: #ddd;
+}
+
+.c1 td,
+.c1 th {
+  padding: 0.5rem 1rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <table
+      class="c1"
+    >
+      <caption>
+        Pricing table
+      </caption>
+      <thead>
+        <tr>
+          <th>
+            title 1
+          </th>
+          <th>
+            title 2
+          </th>
+          <th>
+            title 3
+          </th>
+          <th>
+            title 4
+          </th>
+          <th>
+            title 5
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            content1
+          </td>
+          <td>
+            content2
+          </td>
+          <td>
+            content3
+          </td>
+          <td>
+            content4
+          </td>
+          <td>
+            content5
+          </td>
+        </tr>
+        <tr>
+          <td>
+            content1
+          </td>
+          <td>
+            content2
+          </td>
+          <td>
+            content3
+          </td>
+          <td>
+            content4
+          </td>
+          <td>
+            content5
+          </td>
+        </tr>
+        <tr>
+          <td>
+            content1
+          </td>
+          <td>
+            content2
+          </td>
+          <td>
+            content3
+          </td>
+          <td>
+            content4
+          </td>
+          <td>
+            content5
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>
+            footer 1
+          </td>
+          <td>
+            footer 2
+          </td>
+          <td>
+            footer 3
+          </td>
+          <td>
+            footer 4
+          </td>
+          <td>
+            footer 5
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+`;

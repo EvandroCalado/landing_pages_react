@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render home 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: #0a1128;
+}
+
+.c0::before,
+.c0::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  border-width: 0.5rem;
+  border-color: transparent;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.c0::after {
+  width: 6rem;
+  height: 6rem;
+  border-left: 0.5rem solid #dc143c;
+  border-right: 0.5rem solid #dc143c;
+  -webkit-animation: cbZJmH 1s ease-in-out infinite;
+  animation: cbZJmH 1s ease-in-out infinite;
+}
+
+.c0::before {
+  width: 2rem;
+  height: 2rem;
+  border-left: 0.5rem solid #dc143c;
+  border-right: 0.5rem solid #dc143c;
+  -webkit-animation: cbZJmH 1s ease-in-out reverse infinite;
+  animation: cbZJmH 1s ease-in-out reverse infinite;
+}
+
+<div>
+  <div
+    class="c0"
+  />
+</div>
+`;
